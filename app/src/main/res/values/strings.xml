@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Custom View Dialog</string>
+    <string name="start">Let\'s start</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+
+    <string name="title">Ciao</string>
+    <string name="title_2">Arrivederci</string>
+    <string name="text">Message</string>
+
+    <string name="hello">Do you want to start this dialog?</string>
+    <string name="loading">Loading...</string>
+    <string name="greeting">I hope you have a nice day!!</string>
+</resources>
