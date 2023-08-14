@@ -15,6 +15,9 @@ class LoadingDialog (private val context: Context) {
         val dialogView = View.inflate(context, R.layout.loading_dialog, null)
         val binding = LoadingDialogBinding.bind(dialogView)
 
+        // Set the window background to be transparent
+        dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+
         // set to inflate layout
         dialog.setContentView(binding.root)
         // set to be non-cancelable

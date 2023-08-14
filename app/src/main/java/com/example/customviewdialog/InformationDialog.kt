@@ -21,12 +21,13 @@ class InformationDialog(
         binding.title.text = title
         binding.message.text = message
 
-
         // Create an AlertDialog with the inflated custom layout
         val alertDialog = AlertDialog.Builder(context)
             .setView(binding.root)
             .create()
 
+        // Set the window background to be transparent
+        alertDialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
 
         // set positive custom view button
         binding.okBtn.setOnClickListener {

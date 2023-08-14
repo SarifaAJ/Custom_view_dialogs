@@ -26,6 +26,9 @@ class ConfirmationDialog(
             .setView(binding.root)
             .create()
 
+        // Set the window background to be transparent
+        alertDialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+
         // set positive custom view button
         binding.yesBtn.setOnClickListener {
             onConfirmation.invoke()
